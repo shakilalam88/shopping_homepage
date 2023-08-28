@@ -1,0 +1,917 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Assignment</title>
+</head>
+
+<body>
+    <!-- using BEM class naming convention -->
+
+    <!-- header -->
+    <header>
+        <!-- header topBar -->
+        <div class="header_topbar">
+            <div class="container flex align-center justify-space-between">
+                <div class="header_topbar__left">
+                    <p>Welcome to Our Store Hiscraves</p>
+                </div>
+                <div class="header_topbar__right">
+                    <img src="./images/phone-w.svg" alt="phone" loading="lazy">
+                    <p>Call Us: <a href="tel:+1234567890">1234567890</a></p>
+                </div>
+            </div>
+        </div>
+        <!-- main header -->
+        <div class="header_main ">
+            <div class="container flex justify-space-between align-center">
+                <div class="header_main__left flex">
+                    <a href="javascript:void(0)"><img src="./images/hamburger.svg" alt="hamburger" loading="lazy"></a>
+                </div>
+                <div class="header_main__logo flex justify-center">
+                    <a href="javascript:void(0)"><img src="./images/logo.svg" alt="logo" loading="lazy"></a>
+                </div>
+                <div class="header_main__right flex">
+                    <a href="javascript:void(0)"><img class="search" src="./images/search.svg" alt="search" loading="lazy"></a>
+                    <a href="javascript:void(0)"><img src="./images/wishlist.svg" alt="wishlist" loading="lazy"></a>
+                    <a href="javascript:void(0)"><img src="./images/cart.svg" alt="cart" loading="lazy"></a>
+                    <a href="javascript:void(0)"><img src="./images/man.svg" alt="account" loading="lazy"></a>
+                </div>
+            </div>
+            <div class="container input_text">
+                <input type="text" placeholder="Search">
+            </div>
+        </div>
+    </header>
+    <!-- asidebar -->
+    <div class="menu">
+        <aside class="asidebar"> 
+          <div class="asidebar_header">
+            <div class="asidebar_header__logo"><a href=""><img src="./images/logo.svg" alt="logo" loading="lazy"></a></div>
+            <button class="asidebar_header__close_btn">X</button>
+          </div>
+          <ul class="menu_links">
+            <li>
+              <a href=""><p>Home</p></a>
+            </li>
+            <li>
+              <a href=""><p>about</p></a>
+            </li>
+            <li>
+              <a href=""><p>Services</p></a>
+            </li>
+            <li>
+              <a href=""><p>contact</p></a>
+            </li>
+          </ul>
+        </aside>
+      </div>
+    <main>
+        <!-- Banner -->
+        <div class="banner">
+            <figure>
+                <img src="./images/banner.png" alt="banner" loading="lazy">
+            </figure>
+        </div>
+        <!-- category  -->
+        <div class="category">
+            <div class="category_item container flex">
+                <a href="">
+                    <figure>
+                        <img class="bg-lightpink" src="./images/round-img-1.png" alt="Men’s T-Shirts" loading="lazy">
+                        <figcaption>Men’s T-Shirts</figcaption>
+                    </figure>
+                </a>
+                <a href="">
+                    <figure>
+                        <img class="bg-lightpurple" src="./images/round-img-2.png" alt="Women’s Wear" loading="lazy">
+                        <figcaption>Women’s Wear</figcaption>
+                    </figure>
+                </a>
+                <a href="">
+                    <figure>
+                        <img class="bg-lightcyan" src="./images/round-img-3.png" alt="Winter Collections" loading="lazy">
+                        <figcaption>Winter Collections</figcaption>
+                    </figure>
+                </a>
+                <a href="">
+                    <figure>
+                        <img class="bg-lightpeppermint" src="./images/round-img-4.png" alt="Hooded T-Shirts" loading="lazy">
+                        <figcaption>Hooded T-Shirts</p>
+                    </figure>
+                </a>
+                <a href="">
+                    <figure>
+                        <img class="bg-lightlavenderpink" src="./images/round-img-5.png" alt="Polo Neck T-Shirts" loading="lazy">
+                        <figcaption>Polo Neck T-Shirts</figcaption>
+                    </figure>
+                </a>
+                <a href="">
+                    <figure>
+                        <img class="bg-lightgreen" src="./images/round-img-6.png" alt="Full Sleeves T-Shirts" loading="lazy">
+                        <figcaption>Full Sleeves T-Shirts</figcaption>
+                    </figure>
+                </a>
+            </div>
+        </div>
+        <!-- category offer -->
+        <div class="category_offer container">
+            <div class="category_offer__1">
+                <div class="category_offer__img">
+                    <a href="">
+                        <figure>
+                            <img src="./images/image 2.png" alt="baggy" loading="lazy">
+                        </figure>
+                    </a>
+                </div>
+                <div class="category_offer__img">
+                    <a href="">
+                        <figure>
+                            <img src="./images/image 3.png" alt="winter" loading="lazy">
+                        </figure>
+                    </a>
+                </div>
+            </div>
+            <div class="category_offer__2">
+                <div class="category_offer__img">
+                    <a href="">
+                        <figure>
+                            <img src="./images/image 4.png" alt="women" loading="lazy">
+                        </figure>
+                    </a>
+                </div>
+                <div class="category_offer__img">
+                    <a href="">
+                        <figure>
+                            <img src="./images/image 5.png" alt="trendy" loading="lazy">
+                        </figure>
+                    </a>
+                </div>
+                <div class="category_offer__img">
+                    <a href="">
+                        <figure>
+                            <img src="./images/image 6.png" alt="best dear" loading="lazy">
+                        </figure>
+                    </a>
+                </div>
+
+
+
+            </div>
+        </div>
+        <!-- heading -->
+        <h2 class="heading container">Trending T-Shirts</h2>
+        <!-- product list -->
+        <div class="products_section container">
+            <div class="products">
+                <div class="product_item__card">
+                    <div class="product_card__img">
+                        <figure>
+                            <img src="./images/Rectangle 3.png" alt="Men Henley Neck" loading="lazy">
+                            <figcaption class="overlay">
+                                <a href=""><img src="./images/cart-1.svg" alt="cart"></a>
+                                <a href=""><img src="./images/whishlist-1.svg" alt="whishlist"></a>
+                                <a href=""><img src="./images/share-1.svg" alt="share"></a>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <p class="product_card__name">Men Henley Neck</p>
+                    <p>
+                        <span class="product_item__sleeve">Full Sleeve</span>
+                        <span class="product_item__color">Red Wine</span>
+                    </p>
+                    <p class="product_item__price">
+                        <span class="actual__price">₹399</span>
+                        <span class="regular__price">₹1299</span>
+                    </p>
+                    <p class="product_item__size">
+                        <a href=""><span>s</span></a>
+                        <a href=""><span>m</span></a>
+                        <a href=""><span>l</span></a>
+                        <a href=""><span>xl</span></a>
+                        <a href=""><span>xxl</span></a>
+                    </p>
+                </div>
+                <div class="product_item__card">
+                    <div class="product_card__img">
+                        <figure>
+                            <img src="./images/Rectangle 4.png" alt="Men Henley Neck" loading="lazy">
+                            <figcaption class="overlay">
+                                <a href=""><img src="./images/cart-1.svg" alt="cart"></a>
+                                <a href=""><img src="./images/whishlist-1.svg" alt="whishlist"></a>
+                                <a href=""><img src="./images/share-1.svg" alt="share"></a>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <p class="product_card__name">Men Henley Neck</p>
+                    <p>
+                        <span class="product_item__sleeve">Full Sleeve</span>
+                        <span class="product_item__color">Red Wine</span>
+                    </p>
+                    <p class="product_item__price">
+                        <span class="actual__price">₹399</span>
+                        <span class="regular__price">₹1299</span>
+                    </p>
+                    <p class="product_item__size">
+                        <a href=""><span>s</span></a>
+                        <a href=""><span>m</span></a>
+                        <a href=""><span>l</span></a>
+                        <a href=""><span>xl</span></a>
+                        <a href=""><span>xxl</span></a>
+                    </p>
+                </div>
+                <div class="product_item__card">
+                    <div class="product_card__img">
+                        <figure>
+                            <img src="./images/Rectangle 5.png" alt="Men Henley Neck" loading="lazy">
+                            <figcaption class="overlay">
+                                <a href=""><img src="./images/cart-1.svg" alt="cart"></a>
+                                <a href=""><img src="./images/whishlist-1.svg" alt="whishlist"></a>
+                                <a href=""><img src="./images/share-1.svg" alt="share"></a>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <p class="product_card__name">Men Henley Neck</p>
+                    <p>
+                        <span class="product_item__sleeve">Full Sleeve</span>
+                        <span class="product_item__color">Red Wine</span>
+                    </p>
+                    <p class="product_item__price">
+                        <span class="actual__price">₹399</span>
+                        <span class="regular__price">₹1299</span>
+                    </p>
+                    <p class="product_item__size">
+                        <a href=""><span>s</span></a>
+                        <a href=""><span>m</span></a>
+                        <a href=""><span>l</span></a>
+                        <a href=""><span>xl</span></a>
+                        <a href=""><span>xxl</span></a>
+                    </p>
+                </div>
+                <div class="product_item__card">
+                    <div class="product_card__img">
+                        <figure>
+                            <img src="./images/Rectangle 3.png" alt="Men Henley Neck" loading="lazy">
+                            <figcaption class="overlay">
+                                <a href=""><img src="./images/cart-1.svg" alt="cart"></a>
+                                <a href=""><img src="./images/whishlist-1.svg" alt="whishlist"></a>
+                                <a href=""><img src="./images/share-1.svg" alt="share"></a>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <p class="product_card__name">Men Henley Neck</p>
+                    <p>
+                        <span class="product_item__sleeve">Full Sleeve</span>
+                        <span class="product_item__color">Red Wine</span>
+                    </p>
+                    <p class="product_item__price">
+                        <span class="actual__price">₹399</span>
+                        <span class="regular__price">₹1299</span>
+                    </p>
+                    <p class="product_item__size">
+                        <a href=""><span>s</span></a>
+                        <a href=""><span>m</span></a>
+                        <a href=""><span>l</span></a>
+                        <a href=""><span>xl</span></a>
+                        <a href=""><span>xxl</span></a>
+                    </p>
+                </div>
+                <div class="product_item__card">
+                    <div class="product_card__img">
+                        <figure>
+                            <img src="./images/Rectangle 3.png" alt="Men Henley Neck" loading="lazy">
+                            <figcaption class="overlay">
+                                <a href=""><img src="./images/cart-1.svg" alt="cart"></a>
+                                <a href=""><img src="./images/whishlist-1.svg" alt="whishlist"></a>
+                                <a href=""><img src="./images/share-1.svg" alt="share"></a>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <p class="product_card__name">Men Henley Neck</p>
+                    <p>
+                        <span class="product_item__sleeve">Full Sleeve</span>
+                        <span class="product_item__color">Red Wine</span>
+                    </p>
+                    <p class="product_item__price">
+                        <span class="actual__price">₹399</span>
+                        <span class="regular__price">₹1299</span>
+                    </p>
+                    <p class="product_item__size">
+                        <a href=""><span>s</span></a>
+                        <a href=""><span>m</span></a>
+                        <a href=""><span>l</span></a>
+                        <a href=""><span>xl</span></a>
+                        <a href=""><span>xxl</span></a>
+                    </p>
+                </div>
+                <div class="product_item__card">
+                    <div class="product_card__img">
+                        <figure>
+                            <img src="./images/Rectangle 4.png" alt="Men Henley Neck" loading="lazy">
+                            <figcaption class="overlay">
+                                <a href=""><img src="./images/cart-1.svg" alt="cart"></a>
+                                <a href=""><img src="./images/whishlist-1.svg" alt="whishlist"></a>
+                                <a href=""><img src="./images/share-1.svg" alt="share"></a>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <p class="product_card__name">Men Henley Neck</p>
+                    <p>
+                        <span class="product_item__sleeve">Full Sleeve</span>
+                        <span class="product_item__color">Red Wine</span>
+                    </p>
+                    <p class="product_item__price">
+                        <span class="actual__price">₹399</span>
+                        <span class="regular__price">₹1299</span>
+                    </p>
+                    <p class="product_item__size">
+                        <a href=""><span>s</span></a>
+                        <a href=""><span>m</span></a>
+                        <a href=""><span>l</span></a>
+                        <a href=""><span>xl</span></a>
+                        <a href=""><span>xxl</span></a>
+                    </p>
+                </div>
+                <div class="product_item__card">
+                    <div class="product_card__img">
+                        <figure>
+                            <img src="./images/Rectangle 5.png" alt="Men Henley Neck" loading="lazy">
+                            <figcaption class="overlay">
+                                <a href=""><img src="./images/cart-1.svg" alt="cart"></a>
+                                <a href=""><img src="./images/whishlist-1.svg" alt="whishlist"></a>
+                                <a href=""><img src="./images/share-1.svg" alt="share"></a>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <p class="product_card__name">Men Henley Neck</p>
+                    <p>
+                        <span class="product_item__sleeve">Full Sleeve</span>
+                        <span class="product_item__color">Red Wine</span>
+                    </p>
+                    <p class="product_item__price">
+                        <span class="actual__price">₹399</span>
+                        <span class="regular__price">₹1299</span>
+                    </p>
+                    <p class="product_item__size">
+                        <a href=""><span>s</span></a>
+                        <a href=""><span>m</span></a>
+                        <a href=""><span>l</span></a>
+                        <a href=""><span>xl</span></a>
+                        <a href=""><span>xxl</span></a>
+                    </p>
+                </div>
+                <div class="product_item__card">
+                    <div class="product_card__img">
+                        <figure>
+                            <img src="./images/Rectangle 3.png" alt="Men Henley Neck" loading="lazy">
+                            <figcaption class="overlay">
+                                <a href=""><img src="./images/cart-1.svg" alt="cart"></a>
+                                <a href=""><img src="./images/whishlist-1.svg" alt="whishlist"></a>
+                                <a href=""><img src="./images/share-1.svg" alt="share"></a>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <p class="product_card__name">Men Henley Neck</p>
+                    <p>
+                        <span class="product_item__sleeve">Full Sleeve</span>
+                        <span class="product_item__color">Red Wine</span>
+                    </p>
+                    <p class="product_item__price">
+                        <span class="actual__price">₹399</span>
+                        <span class="regular__price">₹1299</span>
+                    </p>
+                    <p class="product_item__size">
+                        <a href=""><span>s</span></a>
+                        <a href=""><span>m</span></a>
+                        <a href=""><span>l</span></a>
+                        <a href=""><span>xl</span></a>
+                        <a href=""><span>xxl</span></a>
+                    </p>
+                </div>
+            </div>
+            <!-- <div class="products">
+                
+            </div> -->
+            <button class="product_btn">view all</button>
+        </div>
+        <!-- heading -->
+        <h2 class="heading container">Featured Products</h2>
+        <!-- product list -->
+        <div class="products_section container">
+            <div class="products">
+                <div class="product_item__card">
+                    <div class="product_card__img">
+                        <figure>
+                            <img src="./images/Rectangle 3.png" alt="Men Henley Neck" loading="lazy">
+                            <figcaption class="overlay">
+                                <a href=""><img src="./images/cart-1.svg" alt="cart"></a>
+                                <a href=""><img src="./images/whishlist-1.svg" alt="whishlist"></a>
+                                <a href=""><img src="./images/share-1.svg" alt="share"></a>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <p class="product_card__name">Men Henley Neck</p>
+                    <p>
+                        <span class="product_item__sleeve">Full Sleeve</span>
+                        <span class="product_item__color">Red Wine</span>
+                    </p>
+                    <p class="product_item__price">
+                        <span class="actual__price">₹399</span>
+                        <span class="regular__price">₹1299</span>
+                    </p>
+                    <p class="product_item__size">
+                        <a href=""><span>s</span></a>
+                        <a href=""><span>m</span></a>
+                        <a href=""><span>l</span></a>
+                        <a href=""><span>xl</span></a>
+                        <a href=""><span>xxl</span></a>
+                    </p>
+                </div>
+                <div class="product_item__card">
+                    <div class="product_card__img">
+                        <figure>
+                            <img src="./images/Rectangle 4.png" alt="Men Henley Neck" loading="lazy">
+                            <figcaption class="overlay">
+                                <a href=""><img src="./images/cart-1.svg" alt="cart"></a>
+                                <a href=""><img src="./images/whishlist-1.svg" alt="whishlist"></a>
+                                <a href=""><img src="./images/share-1.svg" alt="share"></a>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <p class="product_card__name">Men Henley Neck</p>
+                    <p>
+                        <span class="product_item__sleeve">Full Sleeve</span>
+                        <span class="product_item__color">Red Wine</span>
+                    </p>
+                    <p class="product_item__price">
+                        <span class="actual__price">₹399</span>
+                        <span class="regular__price">₹1299</span>
+                    </p>
+                    <p class="product_item__size">
+                        <a href=""><span>s</span></a>
+                        <a href=""><span>m</span></a>
+                        <a href=""><span>l</span></a>
+                        <a href=""><span>xl</span></a>
+                        <a href=""><span>xxl</span></a>
+                    </p>
+                </div>
+                <div class="product_item__card">
+                    <div class="product_card__img">
+                        <figure>
+                            <img src="./images/Rectangle 5.png" alt="Men Henley Neck" loading="lazy">
+                            <figcaption class="overlay">
+                                <a href=""><img src="./images/cart-1.svg" alt="cart"></a>
+                                <a href=""><img src="./images/whishlist-1.svg" alt="whishlist"></a>
+                                <a href=""><img src="./images/share-1.svg" alt="share"></a>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <p class="product_card__name">Men Henley Neck</p>
+                    <p>
+                        <span class="product_item__sleeve">Full Sleeve</span>
+                        <span class="product_item__color">Red Wine</span>
+                    </p>
+                    <p class="product_item__price">
+                        <span class="actual__price">₹399</span>
+                        <span class="regular__price">₹1299</span>
+                    </p>
+                    <p class="product_item__size">
+                        <a href=""><span>s</span></a>
+                        <a href=""><span>m</span></a>
+                        <a href=""><span>l</span></a>
+                        <a href=""><span>xl</span></a>
+                        <a href=""><span>xxl</span></a>
+                    </p>
+                </div>
+                <div class="product_item__card">
+                    <div class="product_card__img">
+                        <figure>
+                            <img src="./images/Rectangle 3.png" alt="Men Henley Neck" loading="lazy">
+                            <figcaption class="overlay">
+                                <a href=""><img src="./images/cart-1.svg" alt="cart"></a>
+                                <a href=""><img src="./images/whishlist-1.svg" alt="whishlist"></a>
+                                <a href=""><img src="./images/share-1.svg" alt="share"></a>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <p class="product_card__name">Men Henley Neck</p>
+                    <p>
+                        <span class="product_item__sleeve">Full Sleeve</span>
+                        <span class="product_item__color">Red Wine</span>
+                    </p>
+                    <p class="product_item__price">
+                        <span class="actual__price">₹399</span>
+                        <span class="regular__price">₹1299</span>
+                    </p>
+                    <p class="product_item__size">
+                        <a href=""><span>s</span></a>
+                        <a href=""><span>m</span></a>
+                        <a href=""><span>l</span></a>
+                        <a href=""><span>xl</span></a>
+                        <a href=""><span>xxl</span></a>
+                    </p>
+                </div>
+            </div>
+            <button class="product_btn">view all</button>
+        </div>
+        <!-- Banner second-->
+        <div class="banner banner_2">
+            <figure>
+                <img src="./images/banner1 2.png" alt="banner" loading="lazy">
+            </figure>
+        </div>
+        <!-- heading -->
+        <h2 class="heading container">New Products</h2>
+        <!-- product list -->
+        <div class="products_section container">
+            <div class="products">
+                <div class="product_item__card">
+                    <div class="product_card__img">
+                        <figure>
+                            <img src="./images/Rectangle 3.png" alt="Men Henley Neck" loading="lazy">
+                            <figcaption class="overlay">
+                                <a href=""><img src="./images/cart-1.svg" alt="cart"></a>
+                                <a href=""><img src="./images/whishlist-1.svg" alt="whishlist"></a>
+                                <a href=""><img src="./images/share-1.svg" alt="share"></a>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <p class="product_card__name">Men Henley Neck</p>
+                    <p>
+                        <span class="product_item__sleeve">Full Sleeve</span>
+                        <span class="product_item__color">Red Wine</span>
+                    </p>
+                    <p class="product_item__price">
+                        <span class="actual__price">₹399</span>
+                        <span class="regular__price">₹1299</span>
+                    </p>
+                    <p class="product_item__size">
+                        <a href=""><span>s</span></a>
+                        <a href=""><span>m</span></a>
+                        <a href=""><span>l</span></a>
+                        <a href=""><span>xl</span></a>
+                        <a href=""><span>xxl</span></a>
+                    </p>
+                </div>
+                <div class="product_item__card">
+                    <div class="product_card__img">
+                        <figure>
+                            <img src="./images/Rectangle 4.png" alt="Men Henley Neck" loading="lazy">
+                            <figcaption class="overlay">
+                                <a href=""><img src="./images/cart-1.svg" alt="cart"></a>
+                                <a href=""><img src="./images/whishlist-1.svg" alt="whishlist"></a>
+                                <a href=""><img src="./images/share-1.svg" alt="share"></a>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <p class="product_card__name">Men Henley Neck</p>
+                    <p>
+                        <span class="product_item__sleeve">Full Sleeve</span>
+                        <span class="product_item__color">Red Wine</span>
+                    </p>
+                    <p class="product_item__price">
+                        <span class="actual__price">₹399</span>
+                        <span class="regular__price">₹1299</span>
+                    </p>
+                    <p class="product_item__size">
+                        <a href=""><span>s</span></a>
+                        <a href=""><span>m</span></a>
+                        <a href=""><span>l</span></a>
+                        <a href=""><span>xl</span></a>
+                        <a href=""><span>xxl</span></a>
+                    </p>
+                </div>
+                <div class="product_item__card">
+                    <div class="product_card__img">
+                        <figure>
+                            <img src="./images/Rectangle 5.png" alt="Men Henley Neck" loading="lazy">
+                            <figcaption class="overlay">
+                                <a href=""><img src="./images/cart-1.svg" alt="cart"></a>
+                                <a href=""><img src="./images/whishlist-1.svg" alt="whishlist"></a>
+                                <a href=""><img src="./images/share-1.svg" alt="share"></a>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <p class="product_card__name">Men Henley Neck</p>
+                    <p>
+                        <span class="product_item__sleeve">Full Sleeve</span>
+                        <span class="product_item__color">Red Wine</span>
+                    </p>
+                    <p class="product_item__price">
+                        <span class="actual__price">₹399</span>
+                        <span class="regular__price">₹1299</span>
+                    </p>
+                    <p class="product_item__size">
+                        <a href=""><span>s</span></a>
+                        <a href=""><span>m</span></a>
+                        <a href=""><span>l</span></a>
+                        <a href=""><span>xl</span></a>
+                        <a href=""><span>xxl</span></a>
+                    </p>
+                </div>
+                <div class="product_item__card">
+                    <div class="product_card__img">
+                        <figure>
+                            <img src="./images/Rectangle 3.png" alt="Men Henley Neck" loading="lazy">
+                            <figcaption class="overlay">
+                                <a href=""><img src="./images/cart-1.svg" alt="cart"></a>
+                                <a href=""><img src="./images/whishlist-1.svg" alt="whishlist"></a>
+                                <a href=""><img src="./images/share-1.svg" alt="share"></a>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <p class="product_card__name">Men Henley Neck</p>
+                    <p>
+                        <span class="product_item__sleeve">Full Sleeve</span>
+                        <span class="product_item__color">Red Wine</span>
+                    </p>
+                    <p class="product_item__price">
+                        <span class="actual__price">₹399</span>
+                        <span class="regular__price">₹1299</span>
+                    </p>
+                    <p class="product_item__size">
+                        <a href=""><span>s</span></a>
+                        <a href=""><span>m</span></a>
+                        <a href=""><span>l</span></a>
+                        <a href=""><span>xl</span></a>
+                        <a href=""><span>xxl</span></a>
+                    </p>
+                </div>
+            </div>
+            <button class="product_btn">view all</button>
+        </div>
+        <!-- heading -->
+        <h2 class="heading container">Best Selling Products</h2>
+        <!-- product list -->
+        <div class="products_section container">
+            <div class="products">
+                <div class="product_item__card">
+                    <div class="product_card__img">
+                        <figure>
+                            <img src="./images/Rectangle 3.png" alt="Men Henley Neck" loading="lazy">
+                            <figcaption class="overlay">
+                                <a href=""><img src="./images/cart-1.svg" alt="cart"></a>
+                                <a href=""><img src="./images/whishlist-1.svg" alt="whishlist"></a>
+                                <a href=""><img src="./images/share-1.svg" alt="share"></a>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <p class="product_card__name">Men Henley Neck</p>
+                    <p>
+                        <span class="product_item__sleeve">Full Sleeve</span>
+                        <span class="product_item__color">Red Wine</span>
+                    </p>
+                    <p class="product_item__price">
+                        <span class="actual__price">₹399</span>
+                        <span class="regular__price">₹1299</span>
+                    </p>
+                    <p class="product_item__size">
+                        <a href=""><span>s</span></a>
+                        <a href=""><span>m</span></a>
+                        <a href=""><span>l</span></a>
+                        <a href=""><span>xl</span></a>
+                        <a href=""><span>xxl</span></a>
+                    </p>
+                </div>
+                <div class="product_item__card">
+                    <div class="product_card__img">
+                        <figure>
+                            <img src="./images/Rectangle 4.png" alt="Men Henley Neck" loading="lazy">
+                            <figcaption class="overlay">
+                                <a href=""><img src="./images/cart-1.svg" alt="cart"></a>
+                                <a href=""><img src="./images/whishlist-1.svg" alt="whishlist"></a>
+                                <a href=""><img src="./images/share-1.svg" alt="share"></a>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <p class="product_card__name">Men Henley Neck</p>
+                    <p>
+                        <span class="product_item__sleeve">Full Sleeve</span>
+                        <span class="product_item__color">Red Wine</span>
+                    </p>
+                    <p class="product_item__price">
+                        <span class="actual__price">₹399</span>
+                        <span class="regular__price">₹1299</span>
+                    </p>
+                    <p class="product_item__size">
+                        <a href=""><span>s</span></a>
+                        <a href=""><span>m</span></a>
+                        <a href=""><span>l</span></a>
+                        <a href=""><span>xl</span></a>
+                        <a href=""><span>xxl</span></a>
+                    </p>
+                </div>
+                <div class="product_item__card">
+                    <div class="product_card__img">
+                        <figure>
+                            <img src="./images/Rectangle 5.png" alt="Men Henley Neck" loading="lazy">
+                            <figcaption class="overlay">
+                                <a href=""><img src="./images/cart-1.svg" alt="cart"></a>
+                                <a href=""><img src="./images/whishlist-1.svg" alt="whishlist"></a>
+                                <a href=""><img src="./images/share-1.svg" alt="share"></a>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <p class="product_card__name">Men Henley Neck</p>
+                    <p>
+                        <span class="product_item__sleeve">Full Sleeve</span>
+                        <span class="product_item__color">Red Wine</span>
+                    </p>
+                    <p class="product_item__price">
+                        <span class="actual__price">₹399</span>
+                        <span class="regular__price">₹1299</span>
+                    </p>
+                    <p class="product_item__size">
+                        <a href=""><span>s</span></a>
+                        <a href=""><span>m</span></a>
+                        <a href=""><span>l</span></a>
+                        <a href=""><span>xl</span></a>
+                        <a href=""><span>xxl</span></a>
+                    </p>
+                </div>
+                <div class="product_item__card">
+                    <div class="product_card__img">
+                        <figure>
+                            <img src="./images/Rectangle 3.png" alt="Men Henley Neck" loading="lazy">
+                            <figcaption class="overlay">
+                                <a href=""><img src="./images/cart-1.svg" alt="cart"></a>
+                                <a href=""><img src="./images/whishlist-1.svg" alt="whishlist"></a>
+                                <a href=""><img src="./images/share-1.svg" alt="share"></a>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <p class="product_card__name">Men Henley Neck</p>
+                    <p>
+                        <span class="product_item__sleeve">Full Sleeve</span>
+                        <span class="product_item__color">Red Wine</span>
+                    </p>
+                    <p class="product_item__price">
+                        <span class="actual__price">₹399</span>
+                        <span class="regular__price">₹1299</span>
+                    </p>
+                    <p class="product_item__size">
+                        <a href=""><span>s</span></a>
+                        <a href=""><span>m</span></a>
+                        <a href=""><span>l</span></a>
+                        <a href=""><span>xl</span></a>
+                        <a href=""><span>xxl</span></a>
+                    </p>
+                </div>
+            </div>
+            <button class="product_btn">view all</button>
+        </div>
+        <!-- category product -->
+        <div class="category_product container">
+            <div class="category_product__card">
+                <figure>
+                    <img class="bg-green" src="./images/Rectangle 18.png" alt="Streetwear" loading="lazy">
+                    <figcaption class="category_product_title">Streetwear Collections</figcaption>
+                </figure>
+            </div>
+            <div class="category_product__card">
+                <figure>
+                    <img class="bg-skyblue" src="./images/Rectangle 19.png" alt="Striped" loading="lazy">
+                    <pfigcaption class="category_product_title">Striped T-Shirts</pfigcaption>
+                </figure>
+            </div>
+            <div class="category_product__card">
+                <figure>
+                    <img class="bg-wine" src="./images/Rectangle 20.png" alt="Round Neck" loading="lazy">
+                    <figcaption class="category_product_title">Round Neck T-Shirts</figcaption>
+                </figure>
+            </div>
+            <div class="category_product__card">
+                <figure>
+                    <img class="bg-purple" src="./images/Rectangle 21.png" alt="Printed T-Shirts" loading="lazy">
+                    <figcaption class="category_product_title">Printed T-Shirts</figcaption>
+                </figure>
+            </div>
+            <div class="category_product__card">
+                <figure>
+                    <img class="bg-clay" src="./images/Rectangle 22.png" alt="Oversized T-Shirts" loading="lazy">
+                    <figcaption class="category_product_title">Oversized T-Shirts</figcaption>
+                </figure>
+            </div>
+            <div class="category_product__card">
+                <figure>
+                    <img class="bg-blue" src="./images/Rectangle 23.png" alt="Half Sleeves" loading="lazy">
+                    <figcaption class="category_product_title">Half Sleeves T-Shirts</figcaption>
+                </figure>
+            </div>
+        </div>
+        <!-- Banner third-->
+        <div class="banner banner_3">
+            <figure>
+                <img src="./images/banner1 3.png" alt="`banner" loading="lazy">
+            </figure>
+        </div>
+        <!-- offer -->
+        <div class="offer container">
+            <div class="offer_card bg-mist">
+                <figure>
+                    <img src="./images/diamond 1.svg" alt="diamond" loading="lazy">
+                </figure>
+                <p>Hurry Up!</p>
+                <p>85% OFF</p>
+                <p>Sale</p>
+                <button>SHOP NOW</button>
+            </div>
+            <div class="offer_card bg-paleSilver">
+                <figure>
+                    <img src="./images/discount 1.svg" alt="discount" loading="lazy">
+                </figure>
+                <p>Hurry Up!</p>
+                <p>85% OFF</p>
+                <p>Sale</p>
+                <button>SHOP NOW</button>
+            </div>
+        </div>
+        <!-- service -->
+        <div class="services">
+            <div class="service container">
+                <div class="service_box">
+                    <figure>
+                        <img src="./images/Group.svg" alt="Return" loading="lazy">
+                        <figcaption>7 Days Return</figcaption>
+                    </figure>
+                </div>
+                <div class="service_box">
+                    <figure>
+                        <img src="./images/Group 196.svg" alt="Quality" loading="lazy">
+                        <figcaption>Quality Products</figcaption>
+                    </figure>
+                </div>
+                <div class="service_box">
+                    <figure>
+                        <img src="./images/Group 197.svg" alt="Payment" loading="lazy">
+                        <figcaption>Safe Payment</figcaption>
+                    </figure>
+                </div>
+                <div class="service_box ">
+                    <figure>
+                        <img src="./images/Group 198.svg" alt="Helpline" loading="lazy">
+                        <figcaption>24x7 Helpline</figcaption>
+                    </figure>
+                </div>
+            </div>
+        </div>
+        <!-- subscribe -->
+        <div class="subscribe container">
+            <p>Subscribe to get updates on exciting offers & deals</p>
+            <div class="subscribe_input">
+                <input type="email" placeholder="Enter your email">
+                <button>subscribe</button>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="footer container">
+            <div class="footer_box footer_box_1">
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries....</p>
+                <div class="social">
+                    <a href="" class="pintrest bg-pinterest"><img  src="./images/Frame (1).svg" alt="pintrest" loading="lazy"></a>
+                    <a class="linkdyne bg-linkedin" href=""><img  src="./images/Frame.svg" alt="linkdyne" loading="lazy"></a>
+                    <a href=""><img class="insta" src="./images/Group 232.svg" alt="insta" loading="lazy"></a>
+                    <a href=""><img class="twitter" src="./images/Group 231.svg" alt="twitter" loading="lazy"></a>
+                    <a href=""><img class="facebook" src="./images/Group 230.svg" alt="facebook" loading="lazy"></a>
+                </div>
+            </div>
+            <div class="footer_box footer_box_2">
+                <h3>ONLINE SHOPPING</h3>
+                <ul>
+                    <li><a href="">Men’s T-Shirts</a></li>
+                    <li><a href="">Women’s Wear</a></li>
+                    <li><a href="">Winter Collections</a></li>
+                    <li><a href="">Hooded T-Shirts</a></li>
+                    <li><a href="">Streetwear Collections</a></li>
+                </ul>
+            </div>
+            <div class="footer_box footer_box_3">
+                <h3>CUSTOMER POLICIES</h3>
+                <ul>
+                    <li><a href="">About Us</a></li>
+                    <li><a href="">Terms & Conditions</a></li>
+                    <li><a href="">Shipping & Returns Policy</a></li>
+                    <li><a href="">Cancellation & Refund Policy</a></li>
+                    <li><a href="">Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="footer_box footer_box_4">
+                <h3>STORE INFORMATION</h3>
+                <p><img src="./images/location.svg" alt="location" loading="lazy">Lorem Ipsum is simply dummy text of the
+                    printing and typesetting industry. </p>
+                <p><img src="./images/phone.svg" alt="phone" loading="lazy">Call Us: <a href="tel:+1234567890">1234567890</a></p>
+                <p><img src="./images/mail.svg" alt="mail" loading="lazy"><a href="mailto:webmaster@example.com">Email Us: info@yourmail.com</a></p>
+            </div>
+        </div>
+        <div class="footer_bottom">
+            <a href=""><p>©2022-23 Powered By dummy team</p></a>
+        </div>
+    </footer>
+    <script src="./script.js"></script>
+</body>
+
+</html>
